@@ -16,4 +16,4 @@ RUN \
 RUN locale-gen en_US.UTF-8
 ENV LC_ALL en_US.UTF-8
 
-RUN gem install jekyll nokogiri
+RUN gem install rake jekyll nokogiri
